@@ -29,7 +29,8 @@ const ProjectsSection: React.FC = () => {
       style={{ 
         width: '100%',
         padding: '32px 16px',
-        backgroundColor: '#111827' // Matching the hero section background
+        backgroundColor: '#111827', 
+        minHeight: '100vh'
       }}
     >
       <Box style={{ maxWidth: '1200px', margin: '0 auto' }}>

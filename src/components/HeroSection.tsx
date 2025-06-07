@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <Box 
       style={{ 
-        minHeight: "40vh",
+        minHeight: "100vh",
         backgroundColor: "#111827",
         display: "flex", 
         alignItems: "center", 
@@ -86,7 +86,7 @@ const HeroSection = () => {
           className={`transition-all duration-700 delay-200 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         >
           <Link 
-            href="#projects" 
+            href="/projects" 
             style={{ 
               backgroundColor: '#4f46e5', 
               color: 'white', 

@@ -72,7 +72,10 @@ export function NavBar() {
           <DisplayNavButton name="Home" href="/" />
           
           <DisplayNavButton name="Projects" href="/projects" />
-          <DisplayNavButton name="Contributors" href="/contributors" />
+          <DisplayNavButton name="Community" href="/contributors" />
+          <DisplayNavButton name="About Us" href="/about" />
+          <DisplayNavButton name="Join Us" href="/join" />
+
           <Link 
             href="https://github.com/Neko-Nik-Org"
             target="_blank"
