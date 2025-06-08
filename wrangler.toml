@@ -1,0 +1,9 @@
+name = "org-home"
+compatibility_date = "2025-06-08"
+
+[site]
+bucket = "./dist"
+
+
+[observability.logs]
+enabled = true
