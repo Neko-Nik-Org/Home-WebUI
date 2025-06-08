@@ -3,14 +3,12 @@ import { Box, Text, Link, Avatar  ,Heading} from '@radix-ui/themes';
 
 // Enhanced contributor data structure with matching details from screenshot
 const contributors = [
-	
 	{
-		username: 'codeexplorer',
-		fullName: 'Samantha Lee',
-		role: 'Frontend Developer',
-		bio: 'Creates accessible and responsive UI components.',
-		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_2.png', // Earth/globe image avatar
-		profileUrl: 'https://github.com/codeexplorer',
+		username: 'Neko-Nik',
+		fullName: 'Nikhil Raj',
+		role: 'Organization Owner',
+    bio: 'Leads the project and oversees development.',
+		avatarUrl: 'https://avatars.githubusercontent.com/u/214764123?s=160&v=4'
 	},
 	{
 		username: 'webwizard',
@@ -18,7 +16,6 @@ const contributors = [
 		role: 'DevOps Engineer',
 		bio: 'Manages CI/CD pipelines and deployment workflows.',
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_3.png', // Light blue pattern avatar
-		profileUrl: 'https://github.com/webwizard',
 	},
 	{
 		username: 'techguru',
@@ -26,7 +23,6 @@ const contributors = [
 		role: 'Documentation Lead',
 		bio: 'Ensures comprehensive and clear documentation.',
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_4.png', // Purple pattern avatar
-		profileUrl: 'https://github.com/techguru',
 	},
 	{
 		username: 'opensourcefan',
@@ -34,7 +30,6 @@ const contributors = [
 		role: 'Backend Developer',
 		bio: 'Works on API design and server performance.',
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_5.png', // Black face avatar
-		profileUrl: 'https://github.com/opensourcefan',
 	},
 	{
 		username: 'codecraft',
@@ -42,7 +37,6 @@ const contributors = [
 		role: 'UX Designer',
 		bio: 'Focuses on creating intuitive user experiences.',
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_6.png', // Light green square avatar
-		profileUrl: 'https://github.com/codecraft',
 	},
 ];
 
@@ -52,7 +46,6 @@ interface ContributorCardProps {
 	role: string;
 	bio: string;
 	avatarUrl: string;
-	profileUrl: string;
 }
 
 const ContributorCard: React.FC<ContributorCardProps> = ({
@@ -61,7 +54,6 @@ const ContributorCard: React.FC<ContributorCardProps> = ({
 	role,
 	bio,
 	avatarUrl,
-	profileUrl,
 }) => {
 	return (
 		<Box
@@ -119,7 +111,7 @@ const ContributorCard: React.FC<ContributorCardProps> = ({
 			</Text>
 
 			<Link
-				href={profileUrl}
+				href={`https://github.com/${username}`}
 				target="_blank"
 				rel="noopener noreferrer"
 				style={{
@@ -187,7 +179,7 @@ const ContributorsSection: React.FC = () => {
 					{contributors.map((contributor) => (
 						<Link
 							key={contributor.username}
-							href={contributor.profileUrl}
+							href={`https://github.com/${contributor.username}`}
 							target="_blank"
 							rel="noopener noreferrer"
 							style={{
