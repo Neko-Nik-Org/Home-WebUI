@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, Flex, Text, Link } from '@radix-ui/themes';
-import NikLPkgMgrLogo from '/nikl-pkg.svg';
+import NikLPkgMgrLogo from '/cat.png';
 
 
 type NavButtonProps = {
