@@ -2,27 +2,49 @@ import React from 'react';
 import { Box, Heading, Grid } from '@radix-ui/themes';
 import ProjectCard from './ProjectCard';
 
+const projects = [
+  {
+    name: "Nik-Lang",
+    description:
+      "A modern programming language designed for learning and real-world development.",
+    status: "Active",
+    url: "https://github.com/Neko-Nik-Org",
+    tags: ["Language", "Education", "Interpreter"]
+  },
+  {
+    name: "N-Ops",
+    description:
+      "Developer tools and automation workflows for modern teams and individuals.",
+    status: "Active",
+    url: "https://github.com/Neko-Nik-Org",
+    tags: ["DevTools", "Automation", "Workflows"]
+  },
+  {
+    name: "N-Sync",
+    description:
+      "Simple, secure file syncing across devices with real-time watch mode.",
+    status: "Active",
+    url: "https://github.com/Neko-Nik-Org/N-Sync",
+    tags: ["Sync", "Security", "Cross-platform", "Watch"]
+  },
+  {
+    name: "Operating System (WIP)",
+    description:
+      "Lightweight, educational OS experiments based on Debian — for tinkerers & learners.",
+    status: "In Progress",
+    tags: ["OS", "Linux", "Systems", "Education"]
+  },
+  {
+    name: "Short-N (WIP)",
+    description:
+      "A privacy-first, self-hosted URL shortener. Simple. Clean. Yours.",
+    status: "In Progress",
+    tags: ["Privacy", "URL", "Self-hosted", "Shortener"]
+  }
+];
+
 // ProjectsSection now using the ProjectCard component
 const ProjectsSection: React.FC = () => {
-  // Sample project data
-  const projects = [
-    {
-      name: "Project Alpha",
-      description: "Our flagship project for modern development workflows",
-      url: "https://github.com/your-org/project-alpha"
-    },
-    {
-      name: "Data Toolkit",
-      description: "Comprehensive tools for data processing and analysis",
-      url: "https://github.com/your-org/data-toolkit"
-    },
-    {
-      name: "UI Components",
-      description: "A library of reusable React components with accessibility built-in",
-      url: "https://github.com/your-org/ui-components"
-    }
-  ];
-
   return (
     <Box
       id="projects"
@@ -52,6 +74,8 @@ const ProjectsSection: React.FC = () => {
               name={project.name}
               description={project.description}
               url={project.url}
+              status={project.status}
+              tags={project.tags}
             />
           ))}
         </Grid>
