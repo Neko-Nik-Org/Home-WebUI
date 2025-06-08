@@ -18,11 +18,14 @@ const contributors = [
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_3.png', // Light blue pattern avatar
 	},
 	{
-		username: 'techguru',
-		fullName: 'Jamie Martinez',
-		role: 'Documentation Lead',
-		bio: 'Ensures comprehensive and clear documentation.',
+		username: 'Kotla.Lokeshwari',
+		fullName: 'Kotla Lokeshwari',
+		role: 'Backend Developer',
+		techStack: 'NodeJs • ExpressJs • MongoDB • MYSQL • PostgreSQL ',
+		bio: 'Builds and manages the server, database and application logic.',
 		avatarUrl: 'https://github.com/identicons/app/assets/placeholder_4.png', // Purple pattern avatar
+		githubUrl: 'https://github.com/kotlalokeshwari098',
+        linkedinUrl: 'https://www.linkedin.com/in/kotla-lokeshwari-b464072a5/',
 	},
 	{
 		username: 'opensourcefan',
