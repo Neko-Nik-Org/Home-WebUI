@@ -1,5 +1,5 @@
-import ContributorsSection from "../components/ContributorsSection";
 import { NavBar } from "../components/NavBar";
+import {CommunityPage} from "../components/ContributorsSection"
 
 function Contributers() {
   return (
@@ -7,8 +7,8 @@ function Contributers() {
     <>
     <NavBar />
     <div className="flex flex-col items-center justify-center h-screen">
-        {/* Contributors Section */}
-        <ContributorsSection />
+        {/* Community Page Header */}
+        <CommunityPage />
     </div>
     </>
   );
