@@ -1,6 +1,6 @@
 import { NavBar } from "../components/NavBar";
 import {CommunityPage} from "../components/ContributorsSection"
-
+import Footer from "../components/Footer";
 function Contributers() {
   return (
 
@@ -10,6 +10,8 @@ function Contributers() {
         {/* Community Page Header */}
         <CommunityPage />
     </div>
+
+    <Footer />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import ProjectsSection from '../components/ProjectsSection'
 import { NavBar  } from '../components/NavBar';
-
+import Footer from '../components/Footer';
 function Projects() {
   return (
 
@@ -11,6 +11,7 @@ function Projects() {
       <ProjectsSection />
 
     </div>
+    <Footer />
     </>
 
   );

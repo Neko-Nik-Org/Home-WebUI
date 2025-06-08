@@ -1,11 +1,12 @@
 import { NavBar } from "../components/NavBar";
 import { Flex, Text, Box, Grid } from '@radix-ui/themes';
+import Footer from "../components/Footer";
 
 function AboutUs() {
   return (
     <>
       <NavBar />
-      <div>
+      <div  className="lex flex-col items-center justify-center h-full mb-20">
         <Box 
           style={{ 
             minHeight: "100vh",
@@ -450,9 +451,12 @@ function AboutUs() {
                
               </Flex>
             </Box>
+            <br />
+            <br />
           </Box>
         </Box>
       </div>
+      <Footer/>
     </>
   );
 }
