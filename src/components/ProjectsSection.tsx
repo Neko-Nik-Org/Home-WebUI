@@ -1,6 +1,6 @@
-import React from 'react';
-import { Box, Heading, Grid } from '@radix-ui/themes';
-import ProjectCard from './ProjectCard';
+import React  from 'react';
+import { Box, Text, Heading, Grid } from '@radix-ui/themes';
+import ProjectCard from './ProjectCard'; // Assuming you have a ProjectCard component
 
 const projects = [
   {
@@ -43,43 +43,112 @@ const projects = [
   }
 ];
 
-// ProjectsSection now using the ProjectCard component
+
+// Enhanced ProjectsSection component
 const ProjectsSection: React.FC = () => {
   return (
     <Box
       id="projects"
       style={{ 
         width: '100%',
-        padding: '32px 16px',
-        backgroundColor: '#111827', 
-        minHeight: '100vh'
+        padding: '80px 24px',
+        background: 'linear-gradient(135deg, #111827 0%, #0f172a 50%, #1f2937 100%)',
+        minHeight: '100vh',
+        position: 'relative'
       }}
     >
-      <Box style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        <Heading 
-          size="8" 
-          align="center" 
-          style={{ 
-            marginBottom: '32px',
-            color: 'white'
+      {/* Subtle background pattern */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: `radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.1) 0%, transparent 25%),
+                           radial-gradient(circle at 75% 75%, rgba(167, 139, 250, 0.1) 0%, transparent 25%)`,
+          pointerEvents: 'none'
+        }}
+      />
+      
+      <Box style={{ 
+        maxWidth: '1400px', 
+        margin: '0 auto',
+        position: 'relative',
+        zIndex: 1
+      }}>
+        {/* Enhanced heading with subtitle */}
+        <Box style={{ textAlign: 'center', marginBottom: '64px' }}>
+          <Heading 
+            size="9" 
+            style={{ 
+              color: '#f8fafc',
+              marginBottom: '16px',
+              background: 'linear-gradient(135deg, #f8fafc 0%, #a5b4fc 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              fontWeight: '800',
+              letterSpacing: '-0.02em',
+              paddingBottom: '8px',
+            }}
+          >
+            Our Projects
+          </Heading>
+          <Text 
+            size="5" 
+            style={{ 
+              color: '#94a3b8',
+              maxWidth: '600px',
+              margin: '0 auto',
+              lineHeight: '1.6',
+              marginTop: '8px',
+            }}
+          >
+            Innovative solutions and tools built with passion for developers and learners
+          </Text>
+        </Box>
+        
+        {/* Enhanced grid layout */}
+        <Grid 
+          columns={{ initial: '1', sm: '2', lg: '3' }} 
+          gap="6"
+          style={{
+            alignItems: 'stretch'
           }}
         >
-          Our Projects
-        </Heading>
-        
-        <Grid columns={{ initial: '1', sm: '2', md: '3' }} gap="4">
           {projects.map((project, index) => (
-            <ProjectCard
+            <div
               key={index}
-              name={project.name}
-              description={project.description}
-              url={project.url}
-              status={project.status}
-              tags={project.tags}
-            />
+              style={{
+                animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`,
+              }}
+            >
+              <ProjectCard
+                name={project.name}
+                description={project.description}
+                url={project.url}
+                status={project.status}
+                tags={project.tags}
+              />
+            </div>
           ))}
         </Grid>
       </Box>
+
+      {/* CSS animations */}
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </Box>
   );
 };
