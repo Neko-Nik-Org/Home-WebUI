@@ -11,7 +11,6 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ name, description, url, status, tags }: ProjectCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
-
   const getStatusConfig = () => {
     switch (status.toLowerCase()) {
       case 'active':
@@ -228,8 +227,6 @@ const ProjectCard = ({ name, description, url, status, tags }: ProjectCardProps)
     </Box>
   );
 };
-
-// Demo component showing the enhanced card in action
 
 
 export default ProjectCard;

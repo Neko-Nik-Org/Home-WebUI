@@ -22,6 +22,7 @@ a.hero-button:nth-of-type(2):hover {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   border-color: #4f46e5;
 }
+
 /* Apply these styles only to specific cards, not contributor or project cards */
 .non-custom-card.rt-Card.rt-variant-surface {
   --card-border-width: 0px !important;

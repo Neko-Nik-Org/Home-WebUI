@@ -86,7 +86,7 @@ const HeroSection = () => {
           />
         ))}
       </Box>
-      
+
       <Flex 
         direction="column" 
         align="center" 
@@ -237,7 +237,6 @@ const HeroSection = () => {
           </Link>
         </Flex>
 
-      
       </Flex>
 
       <style>{`

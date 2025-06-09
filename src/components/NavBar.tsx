@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, Flex, Text, Link } from '@radix-ui/themes';
-import NikLPkgMgrLogo from '/nikl-pkg.svg';
+import NikLPkgMgrLogo from '/cat.png';
 
 
 type NavButtonProps = {
@@ -74,6 +74,7 @@ export function NavBar() {
           <DisplayNavButton name="Projects" href="/projects" />
           <DisplayNavButton name="Community" href="/contributors" />
           <DisplayNavButton name="About Us" href="/about" />
+          <DisplayNavButton name="Join Us" href="/join" />
           <Link 
             href="https://github.com/Neko-Nik-Org"
             target="_blank"
@@ -159,8 +160,7 @@ export function NavBar() {
             <DisplayNavButton name="Home" href="/" onClick={closeMenu} />
             <DisplayNavButton name="Projects" href="/projects" onClick={closeMenu} />
             <DisplayNavButton name="Contributors" href="/contributors" onClick={closeMenu} />
-                      <DisplayNavButton name="About Us" href="/about" />
-
+            <DisplayNavButton name="About Us" href="/about" />
             <DisplayNavButton 
               name="GitHub" 
               href="https://github.com/Neko-Nik-Org" 

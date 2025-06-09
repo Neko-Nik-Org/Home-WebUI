@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text, Link, Avatar, Heading, Button, } from '@radix-ui/themes';
 import { Github, Linkedin, Users, MessageCircle, GitBranch, Heart } from 'lucide-react';
 import { useState } from 'react';

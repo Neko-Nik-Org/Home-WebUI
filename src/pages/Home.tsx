@@ -6,16 +6,13 @@ function Home() {
 
   return (
     <>
-    
       <NavBar />
       
       {/* Hero Section */}
       <HeroSection />
 
-
       {/* Footer Section */}
       <Footer />
-    
     </>
   );
 }

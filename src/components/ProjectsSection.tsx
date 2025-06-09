@@ -2,7 +2,6 @@ import React  from 'react';
 import { Box, Text, Heading, Grid } from '@radix-ui/themes';
 import ProjectCard from './ProjectCard'; // Assuming you have a ProjectCard component
 
-// Project data
 const projects = [
   {
     name: "Nik-Lang",
@@ -29,20 +28,21 @@ const projects = [
     tags: ["Sync", "Security", "Cross-platform", "Watch"]
   },
   {
-    name: "Operating System (WIP)",
+    name: "Operating System",
     description:
       "Lightweight, educational OS experiments based on Debian — for tinkerers & learners.",
-    status: "In Progress",
+    status: "Not Started",
     tags: ["OS", "Linux", "Systems", "Education"]
   },
   {
-    name: "Short-N (WIP)",
+    name: "Short-N",
     description:
       "A privacy-first, self-hosted URL shortener. Simple. Clean. Yours.",
-    status: "In Progress",
+    status: "Not Started",
     tags: ["Privacy", "URL", "Self-hosted", "Shortener"]
   }
 ];
+
 
 // Enhanced ProjectsSection component
 const ProjectsSection: React.FC = () => {
