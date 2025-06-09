@@ -25,14 +25,14 @@ const contributors = [
     linkedinUrl: 'https://www.linkedin.com/in/viraj-gavade-dev/',
   },
   {
-    username: 'techguru',
-    fullName: 'Jamie Martinez',
-    role: 'Documentation Lead',
-    techStack: 'Technical Writing • MDX • GitBook',
-    bio: 'Ensures comprehensive and clear documentation for better developer experience.',
-    avatarUrl: 'https://github.com/identicons/app/assets/placeholder_4.png',
-    githubUrl: 'https://github.com/techguru',
-    linkedinUrl: 'https://linkedin.com/in/jamie-martinez',
+    username: 'Kotla.Lokeshwari',
+    fullName: 'Kotla Lokeshwari',
+    role: 'Backend Developer',
+    techStack: 'NodeJs • ExpressJs • MongoDB • MYSQL • PostgreSQL ',
+    bio: 'Builds and manages the server, database and application logic.',
+    avatarUrl: 'https://github.com/identicons/app/assets/placeholder_4.png', // Purple pattern avatar
+    githubUrl: 'https://github.com/kotlalokeshwari098',
+    linkedinUrl: 'https://www.linkedin.com/in/kotla-lokeshwari-b464072a5/',
   },
 ];
 
