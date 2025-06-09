@@ -2,7 +2,6 @@ import { Box, Text, Link, Avatar, Heading, Button, } from '@radix-ui/themes';
 import { Github, Linkedin, Users, MessageCircle, GitBranch, Heart } from 'lucide-react';
 import { useState } from 'react';
 
-// Enhanced contributor data structure with your data
 const contributors = [
   {
     username: 'Neko-Nik',
@@ -503,21 +502,10 @@ const CommunityPage: React.FC = () => {
               </div>
             ))}
           </Box>
-
-          
         </Box>
       </Box>
-
-    
-
-     
-
-      
     </Box>
   );
 };
-
-// Create a simpler ContributorsSection component that can be used in Home
-
 
 export  {CommunityPage};
