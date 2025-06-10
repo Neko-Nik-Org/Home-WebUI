@@ -1,8 +1,8 @@
 import { NavBar } from "../components/NavBar";
-import {CommunityPage} from "../components/ContributorsSection"
+import {CommunityPage} from "../components/CommunitySection"
 import Footer from "../components/Footer";
 
-function Contributers() {
+function Community() {
   return (
     <>
       <NavBar />
@@ -16,4 +16,4 @@ function Contributers() {
   );
 }
 
-export default Contributers;
+export default Community;

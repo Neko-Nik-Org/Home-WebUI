@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Projects from './pages/Projects';
-import JoinUs from './pages/JoinUs';
+import OurTeam from './pages/OurTeam';
 
-import Contributers from './pages/Contributors';
+import Contributers from './pages/Community';
 function App() {
   return (
     <BrowserRouter>
@@ -13,8 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/join" element={<JoinUs />} />
-        <Route path="/contributors" element={<Contributers />} />
+        <Route path="/team" element={<OurTeam />} />
+        <Route path="/community" element={<Contributers />} />
 
         {/* Add more routes as needed */}
         <Route path="*" element={<Home />} />
