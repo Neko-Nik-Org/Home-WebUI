@@ -28,6 +28,12 @@ const projects = [
     tags: ["Sync", "Security", "Cross-platform", "Watch"]
   },
   {
+    name: "Invoice-N",
+    description: "A simple, self-hosted invoicing system for freelancers and small businesses.",
+    status: "In Progress",
+    tags: ["Invoicing", "Self-hosted", "Freelancers", "Small Business"],
+  },
+  {
     name: "Operating System",
     description:
       "Lightweight, educational OS experiments based on Debian — for tinkerers & learners.",
