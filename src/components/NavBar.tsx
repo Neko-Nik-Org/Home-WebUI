@@ -70,11 +70,10 @@ export function NavBar() {
         {/* Desktop Navigation */}
         <Flex gap="4" align="center" display={{ initial: 'none', md: 'flex' }}>
           <DisplayNavButton name="Home" href="/" />
-          
           <DisplayNavButton name="Projects" href="/projects" />
-          <DisplayNavButton name="Community" href="/contributors" />
+          <DisplayNavButton name="Our Team" href="/team" />
+          <DisplayNavButton name="Community" href="/community" />
           <DisplayNavButton name="About Us" href="/about" />
-          <DisplayNavButton name="Join Us" href="/join" />
           <Link 
             href="https://github.com/Neko-Nik-Org"
             target="_blank"
@@ -157,10 +156,12 @@ export function NavBar() {
           }}
         >
           <Flex direction="column" gap="2">
-            <DisplayNavButton name="Home" href="/" onClick={closeMenu} />
-            <DisplayNavButton name="Projects" href="/projects" onClick={closeMenu} />
-            <DisplayNavButton name="Contributors" href="/contributors" onClick={closeMenu} />
-            <DisplayNavButton name="About Us" href="/about" />
+
+             <DisplayNavButton name="Home" href="/" onClick={closeMenu} />
+          <DisplayNavButton name="Projects" href="/projects" onClick={closeMenu} />
+          <DisplayNavButton name="Our Team" href="/team" />
+          <DisplayNavButton name="Community" href="/community" onClick={closeMenu} />
+          <DisplayNavButton name="About Us" href="/about" />
             <DisplayNavButton 
               name="GitHub" 
               href="https://github.com/Neko-Nik-Org" 

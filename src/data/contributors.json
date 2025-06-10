@@ -1,0 +1,43 @@
+[
+  {
+    "username": "Neko-Nik",
+    "fullName": "Nikhil Raj",
+    "role": "Organization Owner",
+    "techStack": "Full Stack • DevOps • Leadership",
+    "bio": "Leads the project and oversees development with a passion for open source innovation.",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/214764123?s=160&v=4",
+    "githubUrl": "https://github.com/Neko-Nik",
+    "linkedinUrl": "https://www.linkedin.com/in/neko-nik/"
+      },
+  {
+    "username": "_viraj.dev",
+    "fullName": "Viraj Gavade",
+    "role": "FullStack Developer",
+    "techStack": "React • Node.js • MongoDB",
+    "bio": "Contributes to both frontend and backend development.",
+    "avatarUrl": "https://github.com/identicons/app/assets/placeholder_3.png",
+    "githubUrl": "https://github.com/viraj-gavade",
+    "linkedinUrl": "https://www.linkedin.com/in/viraj-gavade-dev/"
+  },
+  {
+    "username": "Kotla.Lokeshwari",
+    "fullName": "Kotla Lokeshwari",
+    "role": "Backend Developer",
+    "techStack": "NodeJs • ExpressJs • MongoDB • MYSQL • PostgreSQL ",
+    "bio": "Builds and manages the server, database and application logic.",
+    "avatarUrl": "https://github.com/identicons/app/assets/placeholder_4.png", 
+    "githubUrl": "https://github.com/kotlalokeshwari098",
+    "linkedinUrl": "https://www.linkedin.com/in/kotla-lokeshwari-b464072a5/"
+  },
+  {
+    "username": "suryansh98",
+    "fullName": "Suryansh Chaturvedi",
+    "role": "Full Stack Developer",
+    "techStack": "React • Node.js • MongoDB • Express",
+    "bio": "Passionate about building scalable web applications and contributing to open source.",
+    "avatarUrl":
+      "https://media.licdn.com/dms/image/v2/D4E03AQGjKp-wPTg_-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732193592551?e=1755129600&v=beta&t=kA5HtXXBalCog83rm1K9Z6fC5Nt6ZsBzYPl5RNwpUew", 
+    "githubUrl": "https://github.com/suryansh98",
+    "linkedinUrl": "https://www.linkedin.com/in/suryansh-chaturvedi-0bb431192/"
+  }
+]
