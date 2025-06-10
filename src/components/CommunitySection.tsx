@@ -61,9 +61,8 @@ const CommunityPage: React.FC = () => {
       {/* Hero Section */}
       <Box
         style={{
-          padding: "80px 16px 60px",
+          padding: "80px 16px 0px",
           textAlign: "center",
-          background: "linear-gradient(135deg, #1e293b 0%, #0f172a 100%)",
         }}
       >
         <motion.div
@@ -152,7 +151,6 @@ const CommunityPage: React.FC = () => {
       <Box
         style={{
           padding: "80px 16px",
-          background: "linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%)",
           position: "relative",
           overflow: "hidden",
         }}
@@ -165,7 +163,6 @@ const CommunityPage: React.FC = () => {
             left: "0",
             right: "0",
             bottom: "0",
-            background: "radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%)",
             pointerEvents: "none",
           }}
         />
