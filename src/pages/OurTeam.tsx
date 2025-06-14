@@ -3,6 +3,7 @@ import { Text, Box, Heading } from '@radix-ui/themes';
 import ContributorCard from "../components/ContributerCard";
 import contributors from "../data/contributors.json";
 import { motion } from "framer-motion";
+import Footer from "../components/Footer";
 
 function OurTeam() {
   // Header animation variants
@@ -107,6 +108,7 @@ function OurTeam() {
           </motion.div>
         </Box>
       </Box>
+      <Footer />
     </>
   );
 }
