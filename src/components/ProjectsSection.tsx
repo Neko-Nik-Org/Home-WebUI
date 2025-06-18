@@ -30,7 +30,7 @@ const projects = [
   {
     name: "Invoice-N",
     description: "A simple, self-hosted invoicing system for freelancers and small businesses.",
-    status: "Active",
+    status: "In Progress",
     url: "https://github.com/Neko-Nik-Org/Invoice-N-API",
     tags: ["Invoicing", "Self-hosted", "Freelancers", "Small Business"],
   },
