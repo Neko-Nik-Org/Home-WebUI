@@ -8,7 +8,7 @@ const projects = [
     description:
       "A modern programming language designed for learning and real-world development.",
     status: "Active",
-    url: "https://github.com/Neko-Nik-Org",
+    url: "https://github.com/Neko-Nik-Org/NIKL-Core",
     tags: ["Language", "Education", "Interpreter"]
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description:
       "Developer tools and automation workflows for modern teams and individuals.",
     status: "Active",
-    url: "https://github.com/Neko-Nik-Org",
+    url: "https://github.com/Neko-Nik-Org/N-Ops-UI",
     tags: ["DevTools", "Automation", "Workflows"]
   },
   {
@@ -30,7 +30,8 @@ const projects = [
   {
     name: "Invoice-N",
     description: "A simple, self-hosted invoicing system for freelancers and small businesses.",
-    status: "In Progress",
+    status: "Active",
+    url: "https://github.com/Neko-Nik-Org/Invoice-N-API",
     tags: ["Invoicing", "Self-hosted", "Freelancers", "Small Business"],
   },
   {
