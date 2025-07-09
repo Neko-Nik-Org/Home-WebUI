@@ -9,7 +9,8 @@ const projects = [
       "A modern programming language designed for learning and real-world development.",
     status: "Active",
     url: "https://github.com/Neko-Nik-Org/NIKL-Core",
-    tags: ["Language", "Education", "Interpreter"]
+    tags: ["Language", "Education", "Interpreter"],
+    liveUrl: "https://nikl-pkg.nekonik.org/"
   },
   {
     name: "N-Ops",
@@ -137,6 +138,7 @@ const ProjectsSection: React.FC = () => {
                 url={project.url}
                 status={project.status}
                 tags={project.tags}
+                liveUrl={project.liveUrl}
               />
             </div>
           ))}
