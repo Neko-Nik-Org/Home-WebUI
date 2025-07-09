@@ -2,8 +2,6 @@ import { Box, Text, Flex, Grid, Link as RadixLink } from '@radix-ui/themes';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  
   return (
     <footer>
       <Box
@@ -91,7 +89,7 @@ const Footer = () => {
                   </Text>
                 </Link>
                 <a href="https://github.com/Neko-Nik-Org" 
-                   target="_blank" 
+                   target="_blank"
                    rel="noopener noreferrer"
                    style={{ textDecoration: 'none' }}
                 >
@@ -103,14 +101,14 @@ const Footer = () => {
                   </Text>
                 </a>
                 <RadixLink asChild>
-                  <a href="#" style={{ textDecoration: 'none' }}>
+                  <Link to="/community" style={{ textDecoration: 'none' }}>
                     <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                       onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                       onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
                     >
                       Contributing Guidelines
                     </Text>
-                  </a>
+                  </Link>
                 </RadixLink>
               </Flex>
             </Box>
@@ -121,7 +119,7 @@ const Footer = () => {
                 Community
               </Text>
               <Flex direction="column" gap="2">
-                <Link to="/contributors" style={{ textDecoration: 'none' }}>
+                <Link to="/team" style={{ textDecoration: 'none' }}>
                   <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                     onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
@@ -130,7 +128,11 @@ const Footer = () => {
                   </Text>
                 </Link>
                 <RadixLink asChild>
-                  <a href="#" style={{ textDecoration: 'none' }}>
+                  <a href="https://discord.com/invite/PYqHVUGdwv" 
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     style={{ textDecoration: 'none' }}
+                  >
                     <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                       onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                       onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
@@ -140,7 +142,11 @@ const Footer = () => {
                   </a>
                 </RadixLink>
                 <RadixLink asChild>
-                  <a href="#" style={{ textDecoration: 'none' }}>
+                  <a href="https://discord.com/invite/PYqHVUGdwv" 
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     style={{ textDecoration: 'none' }}
+                  >
                     <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                       onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                       onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
@@ -167,7 +173,11 @@ const Footer = () => {
                   </Text>
                 </Link>
                 <RadixLink asChild>
-                  <a href="mailto:contact@neko-nik.org" style={{ textDecoration: 'none' }}>
+                  <a href="https://www.nekonik.com/contact" 
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     style={{ textDecoration: 'none' }}
+                  >
                     <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                       onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                       onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
@@ -177,7 +187,11 @@ const Footer = () => {
                   </a>
                 </RadixLink>
                 <RadixLink asChild>
-                  <a href="#" style={{ textDecoration: 'none' }}>
+                  <a href="https://www.nekonik.com/privacy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: 'none' }}
+                  >
                     <Text size="2" style={{ color: '#94a3b8', transition: 'color 0.2s' }}
                       onMouseEnter={(e) => e.currentTarget.style.color = '#4f46e5'}
                       onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
@@ -201,7 +215,7 @@ const Footer = () => {
         >
           <Flex justify="center" align="center" gap="2">
             <Text size="2" style={{ color: '#64748b' }}>
-              © {currentYear} Neko-Nik Organization. All rights reserved.
+              © 2025 Neko Nik Organization. All rights reserved.
             </Text>
           </Flex>
           <Text size="2" style={{ color: '#475569', marginTop: '8px' }}>

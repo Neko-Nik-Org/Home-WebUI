@@ -63,7 +63,7 @@ export function NavBar() {
         <Flex align="center" gap="2" onClick={() => window.location.href = '/'} style={{ cursor: 'pointer' }}>
           <img src={NikLPkgMgrLogo} alt="Nik-Lang Package Manager Logo" style={{ height: '24px', width: '24px' }} />
           <Text as="span" weight="bold" size="4" style={{ color: 'white' }}>
-            Neko-Nik-Org
+            Neko Nik Organization
           </Text>
         </Flex>
 
