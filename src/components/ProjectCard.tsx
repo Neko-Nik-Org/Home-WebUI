@@ -203,7 +203,7 @@ const ProjectCard = ({ name, description, url, status, tags, liveUrl }: ProjectC
       {/* Footer - Links */}
       <Box style={{ marginTop: 'auto', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
         {liveUrl && (
-          <Link
+            <Link
             href={liveUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -219,17 +219,17 @@ const ProjectCard = ({ name, description, url, status, tags, liveUrl }: ProjectC
               borderBottom: isHovered ? '2px solid #34d399' : '2px solid transparent'
             }}
             onClick={e => e.stopPropagation()} // Prevent event bubbling up to the card's potential onClick
-          >
+            >
             <LiveDemoIcon style={{ marginRight: '8px' }} />
             Check Live
             <OutboundLinkIcon
               style={{
-                marginLeft: '6px',
-                transform: isHovered ? 'translate(2px, -2px)' : 'none',
-                transition: 'transform 0.3s ease'
+              marginLeft: '6px',
+              transform: isHovered ? 'translate(2px, -2px)' : 'none',
+              transition: 'transform 0.3s ease'
               }}
             />
-          </Link>
+            </Link>
         )}
         {url ? (
           <Link
