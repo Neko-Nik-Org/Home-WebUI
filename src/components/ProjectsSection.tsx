@@ -2,6 +2,7 @@ import React  from 'react';
 import { Box, Text, Heading, Grid } from '@radix-ui/themes';
 import ProjectCard from './ProjectCard'; // Assuming you have a ProjectCard component
 
+
 const projects = [
   {
     name: "Nik-Lang",
@@ -10,7 +11,7 @@ const projects = [
     status: "Active",
     url: "https://github.com/Neko-Nik-Org/NIKL-Core",
     tags: ["Language", "Education", "Interpreter"],
-    liveUrl: "https://nikl-pkg.nekonik.org/"
+    liveUrl: "https://nikl.nekonik.org/"
   },
   {
     name: "N-Ops",
@@ -26,6 +27,7 @@ const projects = [
       "Simple, secure file syncing across devices with real-time watch mode.",
     status: "Active",
     url: "https://github.com/Neko-Nik-Org/N-Sync",
+    liveUrl: "https://n-sync.nekonik.org/",
     tags: ["Sync", "Security", "Cross-platform", "Watch"]
   },
   {
