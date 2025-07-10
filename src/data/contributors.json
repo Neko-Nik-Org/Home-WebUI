@@ -39,5 +39,16 @@
       "https://media.licdn.com/dms/image/v2/D4E03AQGjKp-wPTg_-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732193592551?e=1755129600&v=beta&t=kA5HtXXBalCog83rm1K9Z6fC5Nt6ZsBzYPl5RNwpUew", 
     "githubUrl": "https://github.com/suryansh98",
     "linkedinUrl": "https://www.linkedin.com/in/suryansh-chaturvedi-0bb431192/"
+  },
+  {
+    "username": "flying-spagetti",
+    "fullName":"Gnaneswar Lopinti",
+    "role": "Full Stack Developer",
+    "techStack": "NextJs • React • Node.js • MongoDB • Express • MySQL",
+    "bio": "I Love Coffee.",
+    "avatarUrl": "https://i.ibb.co/G39cdpG4/profile.png",
+    "githubUrl": "https://github.com/flying-spagetti/",
+    "linkedinUrl": "https://www.linkedin.com/in/gnaneswar-lopinti-5bb480109/"
+    
   }
 ]
