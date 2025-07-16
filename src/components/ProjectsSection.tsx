@@ -33,7 +33,7 @@ const projects = [
   {
     name: "Invoice-N",
     description: "A simple, self-hosted invoicing system for freelancers and small businesses.",
-    status: "In Progress",
+    status: "On Hold",
     url: "https://github.com/Neko-Nik-Org/Invoice-N-API",
     tags: ["Invoicing", "Self-hosted", "Freelancers", "Small Business"],
   },
@@ -50,7 +50,21 @@ const projects = [
       "A privacy-first, self-hosted URL shortener. Simple. Clean. Yours.",
     status: "Not Started",
     tags: ["Privacy", "URL", "Self-hosted", "Shortener"]
-  }
+  },
+  {
+    name: "Stream Deck",
+    description:
+      "Affordable, fully open-source stream deck including PCB, case, and software.",
+    status: "In Progress",
+    tags: ["Stream Deck", "PCB Design", "Hardware", "3D Printing"]
+  },
+  {
+    name: "Fit-N",
+    description:
+      "Mobile App for tracking fitness activities with backend sync and user management.",
+    status: "In Progress",
+    tags: ["Fitness", "Mobile App", "Tracking", "Sync", "Kotlin"]
+  },
 ];
 
 
